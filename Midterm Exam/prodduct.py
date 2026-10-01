@@ -1,8 +1,7 @@
 class Product:
     def __init__(self, name, price):
         self.name = name
-        self.price = price          # goes through the setter, so it's validated too
-
+        self.price = price          
     @property
     def price(self):
         return self._price
